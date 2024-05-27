@@ -66,4 +66,5 @@ dependencies {
     implementation(libs.gimbal)
 
     implementation(project(":physicslayout"))
+  implementation(libs.constraintlayout)
 }

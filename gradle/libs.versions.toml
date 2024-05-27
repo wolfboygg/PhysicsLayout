@@ -3,6 +3,7 @@ org-jetbrains-kotlin-android = "1.9.10"
 agp = "8.2.1"
 coroutines = "1.7.3"
 retrofit = "2.9.0"
+constraintlayout = "2.1.4"
 
 [libraries]
 jbox2d = { group = "org.jbox2d", name = "jbox2d-library", version = "2.2.1.1" }
@@ -29,6 +30,7 @@ moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version = "1.13.0
 flowlayout = { group = "com.wefika", name = "flowlayout", version = "0.4.1" }
 
 gimbal = { group = "com.github.Commit451", name = "Gimbal", version = "3.0.0" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 
 [plugins]
